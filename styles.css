@@ -142,3 +142,18 @@ li {
 project-btn:hover {
     background: #2980b9;
 }
+
+.element {
+    position: static; /* по умолчанию */
+    position: relative; /* относительно своего положения */
+    position: absolute; /* относительно ближайшего позиционированного предка */
+    position: fixed; /* относительно окна браузера */
+    position: sticky; /* гибрид relative + fixed */
+
+    /* Свойства для смещения */
+    top: 10px;
+    right: 20px;
+    bottom: 30px;
+    left: 40px;
+    z-index: 100; /* порядок наложения */
+}
