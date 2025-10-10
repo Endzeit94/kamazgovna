@@ -91,3 +91,54 @@ li {
 .nav-limks a:hover {
     color: #3498db;
 }
+
+.projects {
+    padding: 2rem 0;
+}
+
+.project-card {
+    position: relative; /* для абсолютного позиционирования бейджа */
+    max-width: 400px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0,0,0,0,1);
+}
+
+/* Бейдж "New" с позиционированием */
+.badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #e74c3c;
+    color: white;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.rem;
+}
+
+.project-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.project-content {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.tech-stack span {
+    background: #3498db;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+project-btn:hover {
+    background: #2980b9;
+}
